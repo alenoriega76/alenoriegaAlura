@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="logica.js"></script>
+  <title>Challenge01</title>
+</head>
+<body>
+  <container>
+    <div class="logo">
+      <img src="/img_alura/logo/Logo.png">
+      <div class="titulo">
+        <p>Encriptador de mensajes</p>
+      </div>
+    </div>
+  </container>
+  <container>
+    <div class="cajatexto">
+      <input type="text" id="texto" placeholder="Digite aquí su mensaje">
+      <div class="leyenda">
+        <p> Solo letras minúsculas y sin acentos</p>
+      </div>
+    </div>
+  </container>
+  <container>
+    <div id="botones">
+      <div class="boton1">
+        <button type="button"id="tipo" onclick="encriptar()" >Encriptar</button>
+      </div>
+      <div class="boton2">
+        <button type="button"id="tipo1" onclick="desencriptar()" >Desencriptar</button>
+      </div>
+    </div>
+  </container>
+  <container>
+    <div id="rectangulo">
+      <div class="dibujo">
+        <img  id="dibujo" src="/img_alura/Muñeco.png">
+    </div>
+    <div class="texto2">
+      <textarea id="texto2" rows="10" cols="8" placeholder=""></textarea>
+    </div>
+    <div class="btn-copiar">
+      <button   type="button" id="copiar" onclick="copiar()">Copiar</button>
+    </div>
+    <div class="parrafo">
+      <p>Ningún mensaje fue encontrado</p>
+    </div>
+    <div class="parrafo2">
+      <p>Ingresa el texto el cual deseas encriptar o desencriptar</p>
+    </div>
+  </container>
+</body>
