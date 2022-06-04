@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <script src="/src/funciones.js"></script>
+    <title>Ahorcado</title>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="/src/img/Logo.png" alt ="logo de alura">
+        <h1>Juego del Ahorcado</h1>    
+    </header>
+    <main>
+        <img id="imagen" src="/src/img/img0.png" alt="imagen del juego">
+        <div>
+            <p id="palabra">
+            </p> 
+        </div>   
+        <div class="botones">
+            <button id="btn_jugar">Iniciar</button>
+            <button onclick="limpiar()"  id="btn_limpiar">Limpiar</button>
+            <p id="resultado"></p>
+        </div>
+        <div id="btn_letras">
+            <button>a</button>
+            <button>b<bbutton>
+            <button>c</button>
+            <button>d</button>
+            <button>e</button>
+            <button>f</button>
+            <button>g</button>
+            <button>h</button>
+            <button>i</button>
+            <button>j</button>
+            <button>k</button>
+            <button>l</button>
+            <button>m</button>
+            <button>n</button>
+            <button>o</button>
+            <button>p</button>
+            <button>q</button>
+            <button>r</button>
+            <button>s</button>
+            <button>t</button>
+            <button>u</button>
+            <button>v</button>
+            <button>w</button>
+            <button>x</button>
+            <button>y</button>
+            <button>z</button>
+        </div>
+        <div class="palabraAgregada">
+            <label for="agregar-palabra">Agregar una palabra:</label>
+            <input type="text" id="agregar-palabra" placeholder="ingrese una palabra"> 
+            <p id="agregada"></p>
+        </div>
+        <button onclick="agregarPalabra()" id="btn_agregarPalabra">Agregar palabra</button>
+    </main>
+    <script src="/src/logica.js"></script>
+    <footer>
+        <p>Sitio realizado por Alejandro David Noriega challenge N° 2 Alura 2022</p>
+    </footer>
+</body>
+</html>

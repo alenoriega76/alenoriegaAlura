@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Odibee+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Odibee Sans', cursive;
+    background: url(/src/img/fondo) no-repeat center; 
+    background-size: cover;
+    min-height: 100vh;
+}
+header{
+    background-color: #aab3b0;
+    color:black;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 10%;
+    height: 10%;
+}
+h1{
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: 10px 10px 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+main{
+   
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, .7);
+    gap: 30px;
+    display: inherit;
+}
+#imagen{
+    width: 200px;
+    margin: auto;
+}
+#palabra{
+    height: 4em;
+}
+#palabra span{
+    vertical-align: bottom;
+    margin-top: 40px;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 40px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    
+}
+
+#btn_jugar{
+    margin-top: 20px;
+    width: 20%;
+    display: block;
+    padding: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: .1s all;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn_jugar:hover{
+    background-color: rgb(206, 136, 23);
+    transform: scale(1.2);
+}
+button{
+    width: 30px;
+    height: 30px; 
+}
+
+#btn_letras{
+    margin-top: 30px;
+    display: block;
+    gap: 9px;
+    cursor: pointer;
+    transition: .1s all;
+}
+
+#letras button{
+    width: 20px;
+    padding: 6px 0;
+    text-align: center;
+   
+}
+#btn_letras button:hover{
+    background-color: rgb(206, 136, 23);
+    transform: scale(1.2);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(7, 5, 1);
+    color: rgb(239, 230, 230);
+    margin-top: 10px;
+    margin-top: 350px;
+}
+#btn_limpiar{
+    margin-top: 30px;
+    width: 20%;
+    display: block;
+    padding: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s all;
+}
+#btn_limpiar:hover{
+    background-color: rgb(212, 124, 24);
+   transform: scale(1.2);
+}
+.palabraAgregada{
+    margin-top: 15px;
+    display: flex;
+}
+.palabraAgregada label{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}.palabraAgregada input{
+    margin:10px;
+    padding: 10px;
+    
+}
+#btn_agregarPalabra{
+    margin-top: 20px;
+    width: 20%;
+    display: block;
+    padding: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: .1s all;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+#btn_agregarPalabra:hover{
+    background-color: rgb(206, 136, 23);
+    transform: scale(1.2);
+}
+
